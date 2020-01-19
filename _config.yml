@@ -3,3 +3,12 @@ title: Peculiar Genomic Observations
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+        layout: "observation"
+        permalink: "/peculiar-genomic-observations/:year/:month/:day/:title"

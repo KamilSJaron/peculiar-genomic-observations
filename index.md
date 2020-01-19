@@ -4,8 +4,6 @@ title: About
 permalink: /
 ---
 
-## Peculiar genomic observations
-
 Have you have observed something twisted in genomics data? Do you feel like genomics is sometimes more a black magic than science? Well, then let's do something about it. Here, I would like to create a plaform for collecting and sharing peculiar genomic observations, so everyone can take a look if something similarly-weird have been observed before or not.
 
 The collection intens to be inclusive for biological pecularities (e.g. massive polymorphic deletions, obscure repetitiveness, ...) and technical artifacts (e.g. unexpected outcome of whole genome amplification, contamination of samples etc.), but also unexplained peculiar observations (e.g. a strange kmer spectra that does not have a satifactory explanation), all welcomed.
