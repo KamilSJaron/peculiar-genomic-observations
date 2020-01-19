@@ -2,9 +2,11 @@
 layout: "post"
 ---
 
-<h1>Peculiar observation: {{ page.title }}</h1>
-<h3>by {{ page.author }}</h3>
-<hr>
-
 {{ content }}
 
+### List of observatins
+
+{% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
+    {{ post.url }}
+{% endfor %}
