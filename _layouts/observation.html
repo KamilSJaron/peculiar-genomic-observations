@@ -7,8 +7,8 @@ layout: post
 <gr>
 <hr>
 
-<h4> List of observations </h4>
+<h4> Other observations </h4>
 
 {% for post in site.posts %}
-    <li><a style="{% if page.url == post.url %}color:red{% endif %}" href="{{ post.url }}">{{ post.title }}</a> </li>
+    {% if page.url != post.url %}<li><a href="/peculiar-genomic-observations{{ post.url }}">{{ post.title }}</a> </li>{% endif %}
 {% endfor %}
