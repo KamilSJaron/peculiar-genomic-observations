@@ -1,12 +1,11 @@
 ---
-layout: "post"
+layout: post
 ---
 
 {{ content }}
 
-### List of observatins
+### List of observations
 
 {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> </li>
-    {{ post.url }}
+    <li><a style="{% if page.url == post.url %}color:red{% endif %}" href="{{ post.url }}">{{ post.title }}</a> </li>
 {% endfor %}
