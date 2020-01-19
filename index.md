@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Peculiar genomic observations
 
-You can use the [editor on GitHub](https://github.com/KamilSJaron/peculiar-genomic-observations/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Have you have observed something twisted in genomics data? Do you feel like genomics is sometimes more a black magic than science? Well, then let's do something about it. Here, I would like to create a plaform for collecting and sharing peculiar genomic observations, so everyone can take a look if something similarly-weird have been observed before or not.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The collection intens to be inclusive for biological pecularities (e.g. massive polymorphic deletions, obscure repetitiveness, ...) and technical artifacts (e.g. unexpected outcome of whole genome amplification, contamination of samples etc.), but also unexplained peculiar observations (e.g. a strange kmer spectra that does not have a satifactory explanation), all welcomed.
 
-### Markdown
+This idea is based on feedback I got on my PopGroup53 talk "Peculiar Genomics Cases", where I presented the first three cases that will initiate the page.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The list of peculiar observations
 
-```markdown
-Syntax highlighted code block
+{% for post in site.posts %}
+    {{ post.url }}
+{% endfor %}
 
-# Header 1
-## Header 2
-### Header 3
+### Contributing
 
-- Bulleted
-- List
+PLEASE DO.
 
-1. Numbered
-2. List
+It will require you to fork this repository, adding one more `.md` file with your peculiar observation, adding yourself in the list of authors and make a pull request. I will check that everything is in check and accept it.
 
-**Bold** and _Italic_ and `Code` text
+I will create a more detailed guidelines soon, if interested, get in touch.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KamilSJaron/peculiar-genomic-observations/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I would be happy to get more people to run the webpage, although maintaining a jekyll web is quite easy, so I might manage by my own. However, if you feel opinionated about anything (what should/not be part of this webpage), now it's the good time to speak. More people will get involved, harder it will be to change things.
