@@ -14,8 +14,15 @@ This idea is based on feedback I got on my PopGroup53 talk "Peculiar Genomics Ca
 
 PLEASE DO.
 
-It will require you to fork this repository, adding one more `.md` file with your peculiar observation, adding yourself in the list of authors and make a pull request. I will check that everything is in check and accept it.
+It will require you to fork this repository, adding one more `.md` file with your peculiar observation to `_post` directory, and adding yourself in the list of authors (`_data/authors.yml`) and make a pull request. I will check that everything is in check and accept it.
 
 I will create a more detailed guidelines soon, if interested, get in touch.
 
 I would be happy to get more people to run the webpage, although maintaining a jekyll web is quite easy, so I might manage by my own. However, if you feel opinionated about anything (what should/not be part of this webpage), now it's the good time to speak. More people will get involved, harder it will be to change things.
+
+#### Contribution notes
+
+- "Author" is an author of the post, if the observation was not done (solely) by you, mention the original source (publication, other authors) in the text. The same with the explanation of the observation.
+- figures for posts should be stored as `assets/<post_name>/<figure1.png>` (e.g. `assets/2020-01-08-crayfish`). Try to keep total sizes of figures for a single post smaller than 1MB.
+- I hoped for bibtex based citation manager, but I could not make that work natively on github, I ended up just manually linking DOIs. This might change in future if I find a way around.
+- I also hoped to have a domain only for peculiar observations (having my name in the url was not the goal), if you would know how to get one without saying a forture, get in touch.
