@@ -12,4 +12,4 @@ defaults:
       type: "posts"
     values:
         layout: "observation"
-        permalink: "/:year/:month/:title.html"
+        permalink: ":categories/:year/:month/:title.html"
